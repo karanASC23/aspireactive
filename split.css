@@ -1,12 +1,11 @@
 
 body{
-    
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +32,7 @@ nav {
   }
   
   nav a:hover {
-    color: gold;
+    color: #ff9900;
   }
   
 

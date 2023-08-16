@@ -1,4 +1,3 @@
-
 let textBox = document.querySelector('#text-input');
 let button = document.querySelector("#click-btn");
 let out1 = document.getElementById("output1");

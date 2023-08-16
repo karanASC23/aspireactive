@@ -1,23 +1,14 @@
-*/
-
-
 body {
-  background-color: black;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+  background-image: url('//img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg');
+  background-size: 100%;
+  background-repeat: none;
+  background-attachment: scroll;
+  color: white;
+  text-align: center;
 }
-
-h1{
-  display: flex;
-  justify-content: center;
-}
-
 
 nav {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,8 +35,23 @@ nav ul li a {
 }
 
 nav a:hover {
-  color: gold;
+  color: #ff9900;
 }
+
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+  }
+
+  nav ul {
+      margin-top: 10px;
+  }
+
+  nav ul li {
+      margin: 5px 0;
+  }
+} 
 
 
 #output1 {
@@ -117,4 +123,12 @@ form{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.container {
+  font-size: 50px;
+  color: gold;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
