@@ -1,0 +1,54 @@
+body {
+    background-image: url('demo_day_images/background.png');
+    background-size: 100%;
+    background-repeat: none;
+    background-attachment: scroll;
+    color: white;
+    text-align: center;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px 25px 50px;
+  font-size: "200px";
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:gold;
+  font-weight: 600;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+  }
+
+  nav ul {
+      margin-top: 10px;
+  }
+
+  nav ul li {
+      margin: 5px 0;
+  }
+} 

@@ -1,0 +1,150 @@
+
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px 25px 50px;
+    font-size: "200px";
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color:gold;
+    font-weight: 600;
+    font-size: 30px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+  
+
+  @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+  
+    nav ul {
+        margin-top: 10px;
+    }
+  
+    nav ul li {
+        margin: 5px 0;
+    }
+  } 
+  
+  .split-section,
+  .choose-split-section,
+  .training-splits-section {
+      padding: 100px 50px;
+  }
+
+  .factors-to-consider-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.factors-to-consider-content li {
+    flex: 0 0 calc(50% - 15px); 
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.factors-to-consider-content strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.split-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.split-content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+/* Accordion styles */
+.accordion-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li strong {
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .split-content, .choose-split-content, .factors-to-consider-content,
+    .training-splits-content {
+        padding: 20px;
+    }
+
+    .split-content {
+        font-size: 16px;
+    }
+
+    .accordion-content {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
+
+section{
+    text-align: center;
+}
