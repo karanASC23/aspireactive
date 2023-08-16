@@ -52,3 +52,43 @@ nav a:hover {
       margin: 5px 0;
   }
 } 
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+  width: 400px;
+  height: 600px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+.team-member p {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+h1{
+  color: black;
+  font-size: 150%;
+}
+
+h3{
+  color: black
+}
