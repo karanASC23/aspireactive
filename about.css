@@ -91,7 +91,7 @@ nav a:hover {
   padding: 40px;
   text-align: center;
   max-width: 600px;
-  margin-left: 420px;
+  margin-left: 600px;
 }
 
 h1 {
@@ -104,3 +104,7 @@ h3 {
   line-height: 1.5;
 }
 
+.descriptions {
+  color: gold;
+  font-size: 20px;
+}
